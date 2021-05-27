@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A30AEDB264AAE2000C95B09 /* PeopleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A30AEDA264AAE2000C95B09 /* PeopleDetail.swift */; };
+		1A30AEDE264AEE3F00C95B09 /* ImageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A30AEDD264AEE3F00C95B09 /* ImageList.swift */; };
+		1A30AEE1264AEE6100C95B09 /* ActorImageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A30AEE0264AEE6100C95B09 /* ActorImageList.swift */; };
+		1A601870265EC52300778451 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A60186F265EC52300778451 /* FavoritesViewController.swift */; };
 		1AD3340D263C63F5007B264C /* CategoryCellTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3340C263C63F5007B264C /* CategoryCellTV.swift */; };
 		1AD33411263C656B007B264C /* CategoryCollectionTVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD33410263C656B007B264C /* CategoryCollectionTVViewController.swift */; };
 		1AD33415263C67F4007B264C /* TVListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD33414263C67F4007B264C /* TVListViewController.swift */; };
@@ -24,6 +28,14 @@
 		1AD33441263F386A007B264C /* TVDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD33440263F386A007B264C /* TVDetail.swift */; };
 		1AD33448264027B2007B264C /* TVGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD33447264027B2007B264C /* TVGenre.swift */; };
 		1AD334522641C5F1007B264C /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD334512641C5F1007B264C /* TabBarVC.swift */; };
+		1AD3345C2645B9A0007B264C /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3345B2645B9A0007B264C /* PeopleViewController.swift */; };
+		1AD334602647CCD3007B264C /* PeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3345F2647CCD3007B264C /* PeopleCell.swift */; };
+		1AD334642647D1A1007B264C /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD334632647D1A1007B264C /* People.swift */; };
+		1AD334682647D1B4007B264C /* PeopleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD334672647D1B4007B264C /* PeopleList.swift */; };
+		1AD3346B2647D4FE007B264C /* OneOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3346A2647D4FE007B264C /* OneOf.swift */; };
+		1AD33470264843B2007B264C /* APIPeopleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3346F264843B1007B264C /* APIPeopleManager.swift */; };
+		1AD33477264A6DF0007B264C /* PhotoPeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD33476264A6DED007B264C /* PhotoPeopleCell.swift */; };
+		1AD3347A264A71BC007B264C /* PeopleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD33479264A71BC007B264C /* PeopleDetailViewController.swift */; };
 		1AF1891D2636ADC600756098 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF1891C2636ADC600756098 /* AppDelegate.swift */; };
 		1AF1891F2636ADC600756098 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF1891E2636ADC600756098 /* SceneDelegate.swift */; };
 		1AF189242636ADC600756098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF189222636ADC600756098 /* Main.storyboard */; };
@@ -54,6 +66,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A30AEDA264AAE2000C95B09 /* PeopleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetail.swift; sourceTree = "<group>"; };
+		1A30AEDD264AEE3F00C95B09 /* ImageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageList.swift; sourceTree = "<group>"; };
+		1A30AEE0264AEE6100C95B09 /* ActorImageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorImageList.swift; sourceTree = "<group>"; };
+		1A60186F265EC52300778451 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		1AD3340C263C63F5007B264C /* CategoryCellTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellTV.swift; sourceTree = "<group>"; };
 		1AD33410263C656B007B264C /* CategoryCollectionTVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionTVViewController.swift; sourceTree = "<group>"; };
 		1AD33414263C67F4007B264C /* TVListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVListViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +87,14 @@
 		1AD33440263F386A007B264C /* TVDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVDetail.swift; sourceTree = "<group>"; };
 		1AD33447264027B2007B264C /* TVGenre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVGenre.swift; sourceTree = "<group>"; };
 		1AD334512641C5F1007B264C /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		1AD3345B2645B9A0007B264C /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		1AD3345F2647CCD3007B264C /* PeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCell.swift; sourceTree = "<group>"; };
+		1AD334632647D1A1007B264C /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		1AD334672647D1B4007B264C /* PeopleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleList.swift; sourceTree = "<group>"; };
+		1AD3346A2647D4FE007B264C /* OneOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneOf.swift; sourceTree = "<group>"; };
+		1AD3346F264843B1007B264C /* APIPeopleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPeopleManager.swift; sourceTree = "<group>"; };
+		1AD33476264A6DED007B264C /* PhotoPeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPeopleCell.swift; sourceTree = "<group>"; };
+		1AD33479264A71BC007B264C /* PeopleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailViewController.swift; sourceTree = "<group>"; };
 		1AF189192636ADC600756098 /* MoviesKZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesKZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF1891C2636ADC600756098 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AF1891E2636ADC600756098 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +137,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A60186E265EC4E000778451 /* FavoritesController */ = {
+			isa = PBXGroup;
+			children = (
+				1A60186F265EC52300778451 /* FavoritesViewController.swift */,
+			);
+			path = FavoritesController;
+			sourceTree = "<group>";
+		};
 		1AD33409263C602C007B264C /* NetworkManagerMovie */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,11 +220,43 @@
 			isa = PBXGroup;
 			children = (
 				1AF1898126398BE100756098 /* MovieCell.swift */,
+				1AD3345F2647CCD3007B264C /* PeopleCell.swift */,
 				1AD3342E263E9E9B007B264C /* TVCell.swift */,
 				1AF1894D26397C4C00756098 /* CategoryCell.swift */,
 				1AD3340C263C63F5007B264C /* CategoryCellTV.swift */,
+				1AD33476264A6DED007B264C /* PhotoPeopleCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		1AD3345A2645B8BD007B264C /* PeopleControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3345B2645B9A0007B264C /* PeopleViewController.swift */,
+				1AD33479264A71BC007B264C /* PeopleDetailViewController.swift */,
+			);
+			path = PeopleControllers;
+			sourceTree = "<group>";
+		};
+		1AD334622647D18C007B264C /* PeopleModel */ = {
+			isa = PBXGroup;
+			children = (
+				1AD334632647D1A1007B264C /* People.swift */,
+				1A30AEDA264AAE2000C95B09 /* PeopleDetail.swift */,
+				1AD3346A2647D4FE007B264C /* OneOf.swift */,
+				1AD334672647D1B4007B264C /* PeopleList.swift */,
+				1A30AEDD264AEE3F00C95B09 /* ImageList.swift */,
+				1A30AEE0264AEE6100C95B09 /* ActorImageList.swift */,
+			);
+			path = PeopleModel;
+			sourceTree = "<group>";
+		};
+		1AD3346E26484359007B264C /* NetworkManagerPeople */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3346F264843B1007B264C /* APIPeopleManager.swift */,
+			);
+			path = NetworkManagerPeople;
 			sourceTree = "<group>";
 		};
 		1AF189102636ADC600756098 = {
@@ -231,6 +295,8 @@
 		1AF1893326395C2300756098 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1A60186E265EC4E000778451 /* FavoritesController */,
+				1AD3345A2645B8BD007B264C /* PeopleControllers */,
 				1AD3341A263C686B007B264C /* MovieControllers */,
 				1AD3340F263C64CC007B264C /* TVControllers */,
 				1AF1893426395C4F00756098 /* WelcomeViewController.swift */,
@@ -243,6 +309,7 @@
 		1AF1893726395C9000756098 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1AD334622647D18C007B264C /* PeopleModel */,
 				1AD3344A2640607A007B264C /* MovieModel */,
 				1AD33421263E85B9007B264C /* TVModel */,
 				1AF1894026395F3600756098 /* User.swift */,
@@ -262,6 +329,7 @@
 		1AF1893926395CAC00756098 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				1AD3346E26484359007B264C /* NetworkManagerPeople */,
 				1AD3340A263C6043007B264C /* NetworkManagerTV */,
 				1AD33409263C602C007B264C /* NetworkManagerMovie */,
 			);
@@ -351,10 +419,12 @@
 				1AF189622639887100756098 /* BaseApiData.swift in Sources */,
 				1AF189542639821100756098 /* MoviesListViewController.swift in Sources */,
 				1AD33411263C656B007B264C /* CategoryCollectionTVViewController.swift in Sources */,
+				1AD3347A264A71BC007B264C /* PeopleDetailViewController.swift in Sources */,
 				1AF1898226398BE100756098 /* MovieCell.swift in Sources */,
 				1AF1898526399FA300756098 /* DetailMovieViewController.swift in Sources */,
 				1AF1897E26398B4600756098 /* Genre.swift in Sources */,
 				1AF1897726398A9B00756098 /* ReviewList.swift in Sources */,
+				1A30AEDE264AEE3F00C95B09 /* ImageList.swift in Sources */,
 				1AD33435263ED79A007B264C /* TVTrailer.swift in Sources */,
 				1AF1897A26398AEF00756098 /* DetailMovie.swift in Sources */,
 				1AF1895126397FA300756098 /* CategoryCollectionViewController.swift in Sources */,
@@ -362,9 +432,11 @@
 				1AD3343B263F2847007B264C /* TVReview.swift in Sources */,
 				1AF1897326398A8C00756098 /* Review.swift in Sources */,
 				1AF18966263988F900756098 /* APIMovieManager.swift in Sources */,
+				1AD33477264A6DF0007B264C /* PhotoPeopleCell.swift in Sources */,
 				1AD33423263E85E7007B264C /* TVList.swift in Sources */,
 				1AD3343E263F2857007B264C /* TVReviewList.swift in Sources */,
 				1AF1894126395F3600756098 /* User.swift in Sources */,
+				1AD33470264843B2007B264C /* APIPeopleManager.swift in Sources */,
 				1AD33415263C67F4007B264C /* TVListViewController.swift in Sources */,
 				1AD3341C263C6F0F007B264C /* TVType.swift in Sources */,
 				1AF1896D263989F900756098 /* Trailer.swift in Sources */,
@@ -372,19 +444,27 @@
 				1AD334522641C5F1007B264C /* TabBarVC.swift in Sources */,
 				1AF1894926395FFB00756098 /* UIHelpers.swift in Sources */,
 				1AF1895F2639884600756098 /* MovieType.swift in Sources */,
+				1AD3346B2647D4FE007B264C /* OneOf.swift in Sources */,
 				1AD3342B263E98FD007B264C /* APITVManager.swift in Sources */,
 				1AF189592639877700756098 /* MovieList.swift in Sources */,
 				1AD33448264027B2007B264C /* TVGenre.swift in Sources */,
 				1AF18969263989CE00756098 /* APIResult.swift in Sources */,
+				1AD334602647CCD3007B264C /* PeopleCell.swift in Sources */,
+				1AD3345C2645B9A0007B264C /* PeopleViewController.swift in Sources */,
 				1AF1894526395FA700756098 /* StorageManager.swift in Sources */,
 				1AF1895C263987A600756098 /* Movie.swift in Sources */,
 				1AF1894E26397C4D00756098 /* CategoryCell.swift in Sources */,
 				1AF1893D26395D9700756098 /* SignInUpViewController.swift in Sources */,
+				1A30AEDB264AAE2000C95B09 /* PeopleDetail.swift in Sources */,
+				1A601870265EC52300778451 /* FavoritesViewController.swift in Sources */,
 				1AD33427263E85F4007B264C /* TV.swift in Sources */,
 				1AD3342F263E9E9B007B264C /* TVCell.swift in Sources */,
+				1A30AEE1264AEE6100C95B09 /* ActorImageList.swift in Sources */,
 				1AF1891D2636ADC600756098 /* AppDelegate.swift in Sources */,
 				1AD3340D263C63F5007B264C /* CategoryCellTV.swift in Sources */,
+				1AD334682647D1B4007B264C /* PeopleList.swift in Sources */,
 				1AF1897026398A2A00756098 /* TrailerList.swift in Sources */,
+				1AD334642647D1A1007B264C /* People.swift in Sources */,
 				1AF1891F2636ADC600756098 /* SceneDelegate.swift in Sources */,
 				1AD3341F263C7AE2007B264C /* BaseTVApiData.swift in Sources */,
 				1AD33418263C682E007B264C /* DetailTVViewController.swift in Sources */,
